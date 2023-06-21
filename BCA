@@ -1,0 +1,27 @@
+/*
+Uso simples da lógica para organização das variaveis na ordem 
+     'B C A' 
+*/
+//--------------------------------
+
+let varA = 'A'; // B
+let varB = 'B'; // C
+let varC = 'C'; // A
+
+/* resolução 1
+const varTemp = varA; // usador temporariamente para guardar informação
+varA = varB;
+varB = varC;
+varC = varTemp;
+// template strings
+ console.log( varA , varB , varC);
+ */
+ 
+ //--------------------------------
+ 
+ /* resolução 2
+ [varA, varB, varC] = [varB , varC,  varA];
+ 
+ // template strings
+ console.log( varA , varB , varC);
+*/
